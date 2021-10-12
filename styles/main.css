@@ -1,0 +1,19 @@
+.pageHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.list{
+    display: flex;  /* Display the child items in a Flex layout */
+    flex-wrap: wrap;  /* Let the rows wrap if there are too many */
+    justify-content: space-evenly; /* Evenly space the child elements */
+    flex-direction: row; 
+    text-align: flex-start;
+    column-gap: 8cm;  
+}
+.shop {
+    flex-basis: 16%;  /* Make each child element the same width */
+    border: 1px dotted black;
+    padding: 3px;
+    margin: auto;
+    text-align: center; /* Center align the text in the boxes */
+}
